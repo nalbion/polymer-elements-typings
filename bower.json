@@ -1,5 +1,6 @@
 {
   "name": "polymer-elements-typings",
+  "version": "1.0.0",
   "authors": [
     "Nicholas Albion"
   ],
@@ -14,15 +15,18 @@
   "license": "MIT",
   "homepage": "https://github.com/nalbion/polymer-elements-typings",
   "ignore": [
-    "**/.*",
+    "gulpfile.js",
+    "package.json",
     "node_modules",
-    "bower_components",
-    "test",
-    "tests"
+    "bower_components"
   ],
   "devDependencies": {
-    "paper-elements": "PolymerElements/paper-elements#~1.0.7",
-    "iron-elements": "PolymerElements/iron-elements#~1.0.7",
-    "neon-elements": "PolymerElements/neon-elements#~1.0.0"
+    "paper-elements": "PolymerElements/paper-elements",
+    "iron-elements": "PolymerElements/iron-elements",
+    "neon-elements": "PolymerElements/neon-elements",
+    "platinum-elements": "PolymerElements/platinum-elements",
+    "gold-elements": "PolymerElements/gold-elements",
+    "marked-element": "PolymerElements/marked-element",
+    "google-elements": "GoogleWebComponents/google-web-components"
   }
 }
