@@ -1,0 +1,29 @@
+{
+  "name": "polymer-elements-typings",
+  "authors": [
+    "Nicholas Albion"
+  ],
+  "description": ".d.ts definitions for [PolymerElements](https://github.com/PolymerElements)",
+  "main": "",
+  "moduleType": [],
+  "keywords": [
+    "Polymer",
+    "TypeScript",
+    "flow",
+    "interfaces"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/nalbion/polymer-elements-typings",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "paper-elements": "PolymerElements/paper-elements#~1.0.7",
+    "iron-elements": "PolymerElements/iron-elements#~1.0.7",
+    "neon-elements": "PolymerElements/neon-elements#~1.0.0"
+  }
+}
