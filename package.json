@@ -1,0 +1,31 @@
+{
+  "name": "polymer-elements-typings",
+  "version": "0.0.1",
+  "description": ".d.ts definitions for [PolymerElements](https://github.com/PolymerElements)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nalbion/polymer-elements-typings.git"
+  },
+  "author": "Nicholas Albion",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nalbion/polymer-elements-typings/issues"
+  },
+  "homepage": "https://github.com/nalbion/polymer-elements-typings#readme",
+  "devDependencies": {
+    "babel-plugin-polymer-to-typescript": "0.1.23",
+    "gulp": "^3.9.0",
+    "gulp-babel": "^6.1.1",
+    "gulp-crisper": "^1.0.0",
+    "gulp-if": "^2.0.0",
+    "gulp-load-plugins": "^1.2.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-replace": "^0.5.4",
+    "gulp-typescript": "^2.10.0",
+    "merge2": "^1.0.0"
+  }
+}
