@@ -12,7 +12,7 @@ fi
 
 function generate {
 	group=$1
-	rm -rf typings/$group-elements
+	rm -rf typings/$group
 
 	find . -type f -regextype "egrep" -regex "./bower_components/($group)-[^\/]+\/(.*\/)?.+-.+\.html" \
 			! -regex ".*/(tests?|demo)/.*" \
@@ -21,7 +21,7 @@ function generate {
 			| while IFS= read -r -d $'\0' line; do
 
 		if [[ "$line" =~ .bower_components/(.*)/([^/]+)\.html ]]; then
-			yo polymerts:gen ${BASH_REMATCH[2]} --elpath ${BASH_REMATCH[1]} --path typings/$group-elements
+			yo polymerts:gen ${BASH_REMATCH[2]} --elpath ${BASH_REMATCH[1]} --path typings/$group
 		fi
 	done
 }
