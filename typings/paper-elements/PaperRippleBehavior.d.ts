@@ -27,7 +27,7 @@ declare module Polymer {
 		necessary, and calling this method will force the
 		ripple to be created.
 		*/
-		getRipple(): PaperRipple;
+		getRipple(): paper.PaperRipple;
 	
 		/** Returns true if this element currently contains a ripple effect. */
 		hasRipple(): boolean;
