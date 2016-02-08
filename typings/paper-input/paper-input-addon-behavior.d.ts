@@ -1,0 +1,24 @@
+/// <reference path="../../bower_components/polymer-ts/polymer-ts.d.ts" />
+/**
+   * Use `Polymer.PaperInputAddonBehavior` to implement an add-on for `<paper-input-container>`. A
+   * add-on appears below the input, and may display information based on the input value and
+   * validity such as a character counter or an error message.
+   * @polymerBehavior
+   */
+declare module Polymer {
+    interface PaperInputAddonBehavior {
+        attached(): any;
+        /**
+         * The function called by `<paper-input-container>` when the input value or validity changes.
+         * @param {{
+         *   inputElement: (Node|undefined),
+         *   value: (string|undefined),
+         *   invalid: (boolean|undefined)
+         * }} state All properties are optional -
+         *     inputElement: The input element.
+         *     value: The input value.
+         *     invalid: True if the input value is invalid.
+         */
+        update(state: any): any;
+    }
+}
