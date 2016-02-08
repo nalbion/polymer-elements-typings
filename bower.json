@@ -1,6 +1,6 @@
 {
   "name": "polymer-elements-typings",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "authors": [
     "Nicholas Albion"
   ],
@@ -27,6 +27,7 @@
     "platinum-elements": "PolymerElements/platinum-elements",
     "gold-elements": "PolymerElements/gold-elements",
     "marked-element": "PolymerElements/marked-element",
-    "google-elements": "GoogleWebComponents/google-web-components"
+    "google-elements": "GoogleWebComponents/google-web-components",
+    "polymer-ts": "~0.1.22"
   }
 }
