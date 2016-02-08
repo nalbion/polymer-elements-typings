@@ -16,7 +16,7 @@
   },
   "homepage": "https://github.com/nalbion/polymer-elements-typings#readme",
   "devDependencies": {
-    "babel-plugin-polymer-to-typescript": "0.1.23",
+    "babel-plugin-polymer-to-typescript": "1.0.0",
     "del": "^2.2.0",
     "gulp": "^3.9.0",
     "gulp-babel": "^6.1.1",
