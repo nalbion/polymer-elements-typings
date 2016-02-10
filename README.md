@@ -2,6 +2,9 @@
 
 Type definitions for [PolymerElements](https://github.com/PolymerElements).  For use with [TypeScript](http://www.typescriptlang.org/).  Should also be compatible with [Flow](http://flowtype.org/docs/third-party.html).
 
+## See Also
+- [IntelliJ live templates](https://gist.github.com/nalbion/09435e331c607c045e15)
+
 ## Usage
 
 ### In Your Web App
