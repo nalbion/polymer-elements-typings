@@ -1,4 +1,4 @@
-/// <reference path="../../bower_components/polymer-ts/polymer-ts.d.ts" />
+/// <reference path="../../polymer-ts.d.ts" />
 export declare class IronCollapse extends polymer.Base {
     /**
      * If true, the orientation is horizontal; otherwise is vertical.

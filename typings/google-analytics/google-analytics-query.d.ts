@@ -1,4 +1,4 @@
-/// <reference path="../../bower_components/polymer-ts/polymer-ts.d.ts" />
+/// <reference path="../../polymer-ts.d.ts" />
 export declare class GoogleAnalyticsQuery extends polymer.Base {
     /**
      * The `data` attribute is the response from a query to the Google
@@ -171,7 +171,6 @@ export declare class GoogleAnalyticsQuery extends polymer.Base {
      * @type Boolean
      */
     setupReady: boolean;
-    constructor();
     /**
      * Query the Google Analytics Core Reporting API.
      *

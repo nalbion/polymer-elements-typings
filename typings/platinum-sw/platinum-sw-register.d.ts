@@ -1,4 +1,4 @@
-/// <reference path="../../bower_components/polymer-ts/polymer-ts.d.ts" />
+/// <reference path="../../polymer-ts.d.ts" />
 /**
    * The `<platinum-sw-register>` element handles
    * [service worker](http://www.html5rocks.com/en/tutorials/service-worker/introduction/)

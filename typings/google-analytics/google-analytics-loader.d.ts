@@ -1,4 +1,4 @@
-/// <reference path="../../bower_components/polymer-ts/polymer-ts.d.ts" />
+/// <reference path="../../polymer-ts.d.ts" />
 export declare class GoogleAnalyticsLoader extends polymer.Base {
     /**
      * True when user is authorized, and api is loaded

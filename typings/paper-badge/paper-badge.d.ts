@@ -1,4 +1,6 @@
-/// <reference path="../../bower_components/polymer-ts/polymer-ts.d.ts" />
+/// <reference path="../../polymer-ts.d.ts" />
+/// <reference path="../iron-resizable-behavior/iron-resizable-behavior.d.ts"/>
+
 export declare class PaperBadge extends polymer.Base implements Polymer.IronResizableBehavior {
     /**
      * The id of the element that the badge is anchored to. This element

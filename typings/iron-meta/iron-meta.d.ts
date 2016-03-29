@@ -1,5 +1,4 @@
-/// <reference path="../../bower_components/polymer-ts/polymer-ts.d.ts" />
-/// <reference path="../../bower_components/polymer-ts/polymer-ts.d.ts" />
+/// <reference path="../../polymer-ts.d.ts" />
 declare var metaDatas: any;
 /**
 `iron-meta-query` can be used to access infomation stored in `iron-meta`.
@@ -33,13 +32,15 @@ declare module Polymer {
          * Array of all meta-data values for the given type.
          */
         list: any[];
-        /**
-         * Actually a factory method, not a true constructor. Only runs if
-         * someone invokes it directly (via `new Polymer.IronMeta()`);
-         *
-         * @param {{type: (string|undefined), key: (string|undefined)}=} config
-         */
-        constructor(config: any);
+
+        ///**
+        // * Actually a factory method, not a true constructor. Only runs if
+        // * someone invokes it directly (via `new Polymer.IronMeta()`);
+        // *
+        // * @param {{type: (string|undefined), key: (string|undefined)}=} config
+        // */
+        //(config: {type?: string; key?: string}) => void;
+
         created(): void;
         /**
          * Retrieves meta data value by key.

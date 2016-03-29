@@ -1,4 +1,4 @@
-/// <reference path="../../bower_components/polymer-ts/polymer-ts.d.ts" />
+/// <reference path="../../polymer-ts.d.ts" />
 export declare class IronIcon extends polymer.Base {
     /**
      * The name of the icon to use. The name should be of the form:

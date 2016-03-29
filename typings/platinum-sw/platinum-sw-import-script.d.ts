@@ -1,4 +1,4 @@
-/// <reference path="../../bower_components/polymer-ts/polymer-ts.d.ts" />
+/// <reference path="../../polymer-ts.d.ts" />
 /**
    * The `<platinum-sw-import-script>` element is used to import a JavaScript file that is executed
    * each time the service worker starts up.

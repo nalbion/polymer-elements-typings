@@ -1,4 +1,4 @@
-/// <reference path="../../bower_components/polymer-ts/polymer-ts.d.ts" />
+/// <reference path="../../polymer-ts.d.ts" />
 /**
    * `Use Polymer.IronValidatableBehavior` to implement an element that validates user input.
    * Use the related `Polymer.IronValidatorBehavior` to add custom validation logic to an iron-input.
@@ -23,7 +23,7 @@
    * @demo demo/index.html
    * @polymerBehavior
    */
-declare module Polymer {
+declare module polymer {
     interface IronValidatableBehavior {
         /**
          * Namespace for this validator.

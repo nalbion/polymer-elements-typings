@@ -1,4 +1,4 @@
-/// <reference path="../../bower_components/polymer-ts/polymer-ts.d.ts" />
+/// <reference path="../../polymer-ts.d.ts" />
 /**
  * The `<platinum-bluetooth-device>` element allows you to [discover nearby
  * bluetooth devices][1] thanks to the young [Web Bluetooth API][2]. It is

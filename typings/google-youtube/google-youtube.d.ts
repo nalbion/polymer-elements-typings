@@ -1,4 +1,4 @@
-/// <reference path="../../bower_components/polymer-ts/polymer-ts.d.ts" />
+/// <reference path="../../polymer-ts.d.ts" />
 export declare class GoogleYoutube extends polymer.Base {
     /**
      * Sets the id of the video to play. Changing this attribute will trigger a call

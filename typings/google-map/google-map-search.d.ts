@@ -1,4 +1,5 @@
-/// <reference path="../../bower_components/polymer-ts/polymer-ts.d.ts" />
+/// <reference path="../../polymer-ts.d.ts" />
+
 export declare class GoogleMapSearch extends polymer.Base {
     /**
      * The Google map object.
@@ -50,7 +51,6 @@ export declare class GoogleMapSearch extends polymer.Base {
      * The lat/lng location.
      */
     location: Object;
-    constructor();
     /**
      * Fired when the details of a place are returned.
      *
@@ -72,5 +72,5 @@ export declare class GoogleMapSearch extends polymer.Base {
      * @param {String} placeId The place id.
      * @return {Promise} place The place information.
      */
-    getDetails(placeId: string): Promise<{}>;
+    getDetails(placeId: string): Promise;
 }

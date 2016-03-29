@@ -1,4 +1,4 @@
-/// <reference path="../../bower_components/polymer-ts/polymer-ts.d.ts" />
+/// <reference path="../../polymer-ts.d.ts" />
 export declare class PaperHeaderPanel extends polymer.Base {
     /**
      * Controls header and scrolling behavior. Options are

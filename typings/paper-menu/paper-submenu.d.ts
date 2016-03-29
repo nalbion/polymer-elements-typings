@@ -1,4 +1,6 @@
-/// <reference path="../../bower_components/polymer-ts/polymer-ts.d.ts" />
+/// <reference path="../../polymer-ts.d.ts" />
+/// <reference path="../iron-behaviors/iron-control-state.d.ts"/>
+
 export declare class PaperSubmenu extends polymer.Base implements Polymer.IronControlState {
     /**
      * Fired when the submenu is opened.

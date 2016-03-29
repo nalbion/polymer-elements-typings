@@ -1,4 +1,4 @@
-/// <reference path="../../bower_components/polymer-ts/polymer-ts.d.ts" />
+/// <reference path="../../polymer-ts.d.ts" />
 export declare class PaperMaterial extends polymer.Base {
     /**
      * The z-depth of this element, from 0-5. Setting to 0 will remove the

@@ -1,5 +1,7 @@
-/// <reference path="../../bower_components/polymer-ts/polymer-ts.d.ts" />
-export declare class IronInput extends polymer.Base implements Polymer.IronValidatableBehavior {
+/// <reference path="../../polymer-ts.d.ts" />
+/// <reference path="../iron-validatable-behavior/iron-validatable-behavior.d.ts"/>
+
+export declare class IronInput extends polymer.Base implements polymer.IronValidatableBehavior {
     /**
      * Use this property instead of `value` for two-way data binding.
      */

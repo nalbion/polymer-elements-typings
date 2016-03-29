@@ -1,4 +1,4 @@
-/// <reference path="../../bower_components/polymer-ts/polymer-ts.d.ts" />
+/// <reference path="../../polymer-ts.d.ts" />
 export declare class IronPageUrl extends polymer.Base {
     /**
      * The pathname component of the URL.
@@ -35,7 +35,6 @@ export declare class IronPageUrl extends polymer.Base {
      * @type {string|RegExp}
      */
     urlSpaceRegex: string | RegExp;
-    constructor();
     attached(): void;
     detached(): void;
 }

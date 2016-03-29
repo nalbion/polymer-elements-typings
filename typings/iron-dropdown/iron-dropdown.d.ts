@@ -1,5 +1,11 @@
-/// <reference path="../../bower_components/polymer-ts/polymer-ts.d.ts" />
-export declare class IronDropdown extends polymer.Base implements Polymer.IronControlState, Polymer.IronA11yKeysBehavior, Polymer.IronOverlayBehavior, Polymer.NeonAnimationRunnerBehavior {
+/// <reference path="../../polymer-ts.d.ts" />
+/// <reference path="../iron-behaviors/iron-control-state.d.ts"/>
+/// <reference path="../iron-a11y-keys-behavior/iron-a11y-keys-behavior.d.ts"/>
+/// <reference path="../neon-animation/neon-animation-behavior.d.ts"/>
+
+export declare class IronDropdown extends polymer.Base
+    implements Polymer.IronControlState, polymer.IronA11yKeysBehavior, polymer.IronOverlayBehavior, polymer.NeonAnimationRunnerBehavior
+{
     /**
      * The orientation against which to align the dropdown content
      * horizontally relative to the dropdown trigger.

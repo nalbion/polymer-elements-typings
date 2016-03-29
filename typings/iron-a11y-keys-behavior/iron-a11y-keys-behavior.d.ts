@@ -1,5 +1,3 @@
-/// <reference path="../../bower_components/polymer-ts/polymer-ts.d.ts" />
-declare var KEY_IDENTIFIER: any;
 /**
  * `Polymer.IronA11yKeysBehavior` provides a normalized interface for processing
  * keyboard commands that pertain to [WAI-ARIA best practices](http://www.w3.org/TR/wai-aria-practices/#kbd_general_binding).
@@ -18,18 +16,17 @@ declare var KEY_IDENTIFIER: any;
  * @polymerBehavior
  */
 declare module Polymer {
-    interface IronA11yKeysBehavior {
+    export interface IronA11yKeysBehavior {
         /**
          * The HTMLElement that will be firing relevant KeyboardEvents.
          */
-        keyEventTarget: EventTarget;
+        keyEventTarget?: EventTarget;
         /**
          * If true, this property will cause the implementing element to
          * automatically stop propagation on any handled KeyboardEvents.
          */
-        stopKeyboardEventPropagation: boolean;
-        keyBindings: any;
-        constructor(): any;
+        stopKeyboardEventPropagation?: boolean;
+        keyBindings?: any;
     }
 }
 declare function parseEventString(eventString: any): any;

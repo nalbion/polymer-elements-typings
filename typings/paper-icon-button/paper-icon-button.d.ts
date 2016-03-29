@@ -1,5 +1,28 @@
-/// <reference path="../../bower_components/polymer-ts/polymer-ts.d.ts" />
-export declare class PaperIconButton extends polymer.Base implements Polymer.PaperInkyFocusBehavior {
+/// <reference path="../../polymer-ts.d.ts" />
+/// <reference path="../paper-behaviors/paper-inky-focus-behavior.d.ts"/>
+
+declare class PaperIconButton extends polymer.Base implements Polymer.PaperInkyFocusBehavior {
+    // stand-in properties for behavior mixins
+    // IronButtonState
+    pressed: boolean;
+    toggles: boolean;
+    active: boolean;
+    pointerDown: boolean;
+    receivedFocusFromKeyboard: boolean;
+    ariaActiveAttribute: string;
+    // IronA11yKeysBehavior
+    keyEventTarget: EventTarget;
+    stopKeyboardEventPropagation: boolean;
+    keyBindings: any;
+    // IronControlState
+    focused: boolean;
+    disabled: boolean;
+    // PaperRippleBehavior
+    noink: boolean;
+    ensureRipple(optTriggeringEvent?: Event): any;
+    getRipple(): any;
+    hasRipple(): any;
+
     /**
      * The URL of an image for the icon. If the src property is specified,
      * the icon property should not be.

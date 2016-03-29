@@ -1,4 +1,4 @@
-/// <reference path="../../bower_components/polymer-ts/polymer-ts.d.ts" />
+/// <reference path="../../polymer-ts.d.ts" />
 export declare class GoogleAnalyticsDateSelector extends polymer.Base {
     /**
      * The `startDate` attribute is the start date for fetching Analytics

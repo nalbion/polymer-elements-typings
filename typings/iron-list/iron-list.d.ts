@@ -1,5 +1,7 @@
-/// <reference path="../../bower_components/polymer-ts/polymer-ts.d.ts" />
-export declare class IronList extends polymer.Base implements Polymer.Templatizer, Polymer.IronResizableBehavior {
+/// <reference path="../../polymer-ts.d.ts" />
+/// <reference path="../iron-resizable-behavior/iron-resizable-behavior.d.ts"/>
+
+export declare class IronList extends polymer.Base implements Polymer.Templatizer, polymer.IronResizableBehavior {
     /**
      * An array containing items determining how many instances of the template
      * to stamp and that that each template instance should bind to.

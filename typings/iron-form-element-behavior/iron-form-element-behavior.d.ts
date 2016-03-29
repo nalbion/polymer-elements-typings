@@ -1,4 +1,4 @@
-/// <reference path="../../bower_components/polymer-ts/polymer-ts.d.ts" />
+/// <reference path="../../polymer-ts.d.ts" />
 /**
   Polymer.IronFormElementBehavior enables a custom element to be included
   in an `iron-form`.
@@ -6,7 +6,7 @@
   @demo demo/index.html
   @polymerBehavior
   */
-declare module Polymer {
+declare module polymer {
     interface IronFormElementBehavior {
         /**
          * Fired when the element is added to an `iron-form`.
@@ -21,11 +21,11 @@ declare module Polymer {
         /**
          * The name of this element.
          */
-        name: string;
+        name?: string;
         /**
          * The value for this element.
          */
-        value: string;
+        value?: string;
         /**
          * Set to true to mark the input as required. If used in a form, a
          * custom element that uses this behavior should also use
@@ -34,8 +34,8 @@ declare module Polymer {
          * It's also strongly recommended to provide a visual style for the element
          * when its value is invalid.
          */
-        required: boolean;
-        attached(): any;
-        detached(): any;
+        required?: boolean;
+        attached?(): any;
+        detached?(): any;
     }
 }

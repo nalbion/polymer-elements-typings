@@ -1,28 +1,28 @@
-/// <reference path="../../bower_components/polymer-ts/polymer-ts.d.ts" />
-/// <reference path="../../bower_components/polymer-ts/polymer-ts.d.ts" />
+/// <reference path="../../polymer-ts.d.ts" />
+
 declare module Polymer {
-    interface IronJsonpLibraryBehavior {
+    export interface IronJsonpLibraryBehavior {
         /**
          * True if library has been successfully loaded
          */
-        libraryLoaded: boolean;
+        libraryLoaded?: boolean;
         /**
          * Not null if library has failed to load
          */
-        libraryErrorMessage: string;
-        ready(): any;
+        libraryErrorMessage?: string;
+        ready?(): any;
     }
 }
 /** @constructor */
-declare var Loader: (name: any, url: any, callbackName: any) => void;
-/**
- * LoaderMap keeps track of all Loaders
- */
-declare var LoaderMap: {
-    apiMap: {};
-    require: (url: any, notifyCallback: any, jsonpCallbackName: any) => void;
-    nameFromUrl: (url: any) => string;
-};
+//declare var Loader: (name: any, url: any, callbackName: any) => void;
+///**
+// * LoaderMap keeps track of all Loaders
+// */
+//declare var LoaderMap: {
+//    apiMap: {};
+//    require: (url: any, notifyCallback: any, jsonpCallbackName: any) => void;
+//    nameFromUrl: (url: any) => string;
+//};
 declare class IronJsonpLibrary extends polymer.Base implements Polymer.IronJsonpLibraryBehavior {
     /**
      * Library url. Must contain string `%%callback%%`.

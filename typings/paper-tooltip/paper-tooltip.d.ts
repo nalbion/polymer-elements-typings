@@ -1,4 +1,6 @@
-/// <reference path="../../bower_components/polymer-ts/polymer-ts.d.ts" />
+/// <reference path="../../polymer-ts.d.ts" />
+/// <reference path="../neon-animation/neon-animation-behavior.d.ts"/>
+
 export declare class PaperTooltip extends polymer.Base implements Polymer.NeonAnimationRunnerBehavior {
     /**
      * The id of the element that the tooltip is anchored to. This element
@@ -36,7 +38,7 @@ export declare class PaperTooltip extends polymer.Base implements Polymer.NeonAn
      * that your animationConfig has the exact format below.
      */
     animationConfig: Object;
-    constructor();
+
     target: any;
     attached(): void;
     detached(): void;

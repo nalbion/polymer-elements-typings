@@ -1,4 +1,5 @@
-/// <reference path="../../bower_components/polymer-ts/polymer-ts.d.ts" />
+/// <reference path="../../polymer-ts.d.ts" />
+
 export declare class PaperInputContainer extends polymer.Base {
     /**
      * Set to true to disable the floating label. The label disappears when the input value is
@@ -26,7 +27,6 @@ export declare class PaperInputContainer extends polymer.Base {
      * True if the input has focus.
      */
     focused: boolean;
-    constructor();
     ready(): void;
     attached(): void;
     /**

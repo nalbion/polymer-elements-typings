@@ -1,4 +1,4 @@
-/// <reference path="../../bower_components/polymer-ts/polymer-ts.d.ts" />
+/// <reference path="../../polymer-ts.d.ts" />
 export declare class GoogleHangoutButton extends polymer.Base {
     /**
      * Specifies what type of Hangout should be started.
@@ -33,6 +33,5 @@ export declare class GoogleHangoutButton extends polymer.Base {
      * Specifies the width of the button.
      */
     width: number;
-    constructor();
     ready(): void;
 }

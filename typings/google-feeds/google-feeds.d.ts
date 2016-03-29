@@ -1,4 +1,4 @@
-/// <reference path="../../bower_components/polymer-ts/polymer-ts.d.ts" />
+/// <reference path="../../polymer-ts.d.ts" />
 export declare class GoogleFeeds extends polymer.Base {
     /**
      * url of the feed to fetch.
@@ -29,6 +29,5 @@ export declare class GoogleFeeds extends polymer.Base {
      * Only applies for one feed.
      */
     format: string;
-    constructor();
     attached(): void;
 }

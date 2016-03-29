@@ -1,4 +1,4 @@
-/// <reference path="../../bower_components/polymer-ts/polymer-ts.d.ts" />
+/// <reference path="../../polymer-ts.d.ts" />
 export declare class GoogleChart extends polymer.Base {
     /**
      * Sets the type of the chart.
@@ -98,7 +98,6 @@ export declare class GoogleChart extends polymer.Base {
      * @type array
      */
     selection: any[];
-    constructor();
     /**
      * Draws the chart.
      *

@@ -1,4 +1,7 @@
-/// <reference path="../../bower_components/polymer-ts/polymer-ts.d.ts" />
+/// <reference path="../../polymer-ts.d.ts" />
+/// <reference path="../iron-resizable-behavior/iron-resizable-behavior.d.ts"/>
+/// <reference path="../iron-menu-behavior/iron-menu-behavior.d.ts"/>
+
 export declare class PaperTabs extends polymer.Base implements Polymer.IronResizableBehavior, Polymer.IronMenubarBehavior {
     /**
      * If true, ink ripple effect is disabled. When this property is changed,

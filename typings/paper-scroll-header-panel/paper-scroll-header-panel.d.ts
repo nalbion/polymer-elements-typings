@@ -1,4 +1,6 @@
-/// <reference path="../../bower_components/polymer-ts/polymer-ts.d.ts" />
+/// <reference path="../../polymer-ts.d.ts" />
+/// <reference path="../iron-resizable-behavior/iron-resizable-behavior.d.ts"/>
+
 declare module Polymer {
     class PaperScrollHeaderPanel extends polymer.Base implements Polymer.IronResizableBehavior {
         /**

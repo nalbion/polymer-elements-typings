@@ -1,4 +1,4 @@
-/// <reference path="../../bower_components/polymer-ts/polymer-ts.d.ts" />
+/// <reference path="../../polymer-ts.d.ts" />
 export declare class IronForm extends polymer.Base {
     /**
      * Content type to use when sending data.
@@ -27,7 +27,6 @@ export declare class IronForm extends polymer.Base {
     * iron-ajax request object used to submit the form.
     */
     request: Object;
-    constructor();
     ready(): void;
     /**
      * Submits the form.

@@ -1,18 +1,17 @@
-/// <reference path="../../bower_components/polymer-ts/polymer-ts.d.ts" />
+/// <reference path="../../polymer-ts.d.ts" />
 /**
    * @demo demo/index.html
    * @polymerBehavior
    */
 declare module Polymer {
-    interface IronControlState {
+    export interface IronControlState {
         /**
          * If true, the element currently has focus.
          */
-        focused: boolean;
+        focused?: boolean;
         /**
          * If true, the user cannot interact with this element.
          */
-        disabled: boolean;
-        constructor(): any;
+        disabled?: boolean;
     }
 }

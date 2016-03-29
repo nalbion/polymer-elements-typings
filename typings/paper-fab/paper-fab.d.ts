@@ -1,4 +1,6 @@
-/// <reference path="../../bower_components/polymer-ts/polymer-ts.d.ts" />
+/// <reference path="../../polymer-ts.d.ts" />
+/// <reference path="../paper-behaviors/paper-button-behavior.d.ts"/>
+
 export declare class PaperFab extends polymer.Base implements Polymer.PaperButtonBehavior {
     /**
      * The URL of an image for the icon. If the src property is specified,

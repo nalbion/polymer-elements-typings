@@ -1,5 +1,7 @@
-/// <reference path="../../bower_components/polymer-ts/polymer-ts.d.ts" />
-export declare class PaperToast extends polymer.Base implements Polymer.IronOverlayBehavior {
+/// <reference path="../../polymer-ts.d.ts" />
+/// <reference path="../iron-overlay-behavior/iron-overlay-behavior.d.ts"/>
+
+declare class PaperToast extends polymer.Base implements Polymer.IronOverlayBehavior {
     /**
      * The duration in milliseconds to show the toast.
      * Set to `0`, a negative number, or `Infinity`, to disable the

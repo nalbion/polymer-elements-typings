@@ -1,4 +1,4 @@
-/// <reference path="../../bower_components/polymer-ts/polymer-ts.d.ts" />
+/// <reference path="../../polymer-ts.d.ts" />
 /**
 `google-signin-aware` is used to enable authentication in custom elements by
 interacting with a google-signin element that needs to be present somewhere

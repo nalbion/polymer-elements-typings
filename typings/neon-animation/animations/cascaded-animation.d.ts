@@ -1,6 +1,7 @@
-/// <reference path="../../../bower_components/polymer-ts/polymer-ts.d.ts" />
+/// <reference path="../../../polymer-ts.d.ts" />
+/// <reference path="../../neon-animation/neon-animation-behavior.d.ts"/>
+
 export declare class CascadedAnimation extends polymer.Base implements Polymer.NeonAnimationBehavior {
-    constructor();
     /**
      * @param {{
      *   animation: string,
@@ -9,6 +10,11 @@ export declare class CascadedAnimation extends polymer.Base implements Polymer.N
      *   timing: (Object|undefined)
      *  }} config
      */
-    configure(config: any): any;
+    configure(config: {
+        animation?: string;
+        nodes: Element[];
+        nodeDelay?: number;
+        timing?: Object;
+    }): any;
     complete(): void;
 }

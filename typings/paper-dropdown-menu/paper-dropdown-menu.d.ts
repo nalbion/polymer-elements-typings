@@ -1,5 +1,12 @@
-/// <reference path="../../bower_components/polymer-ts/polymer-ts.d.ts" />
-export declare class PaperDropdownMenu extends polymer.Base implements Polymer.IronButtonState, Polymer.IronControlState, Polymer.IronFormElementBehavior, Polymer.IronValidatableBehavior {
+/// <reference path="../../polymer-ts.d.ts" />
+/// <reference path="../iron-behaviors/iron-button-state.d.ts"/>
+/// <reference path="../iron-behaviors/iron-control-state.d.ts"/>
+/// <reference path="../iron-form-element-behavior/iron-form-element-behavior.d.ts"/>
+/// <reference path="../iron-validatable-behavior/iron-validatable-behavior.d.ts"/>
+
+export declare class PaperDropdownMenu extends polymer.Base
+    implements Polymer.IronButtonState, Polymer.IronControlState, Polymer.IronFormElementBehavior, Polymer.IronValidatableBehavior
+{
     /**
      * The derived "label" of the currently selected item. This value
      * is the `label` property on the selected item if set, or else the

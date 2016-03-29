@@ -1,4 +1,4 @@
-/// <reference path="../../bower_components/polymer-ts/polymer-ts.d.ts" />
+/// <reference path="../../polymer-ts.d.ts" />
 export declare class GoogleAnalyticsChart extends polymer.Base {
     /**
      * Sets the type of the chart.
@@ -67,7 +67,6 @@ export declare class GoogleAnalyticsChart extends polymer.Base {
     samplingLevel: string;
     startIndex: number;
     maxResults: number;
-    constructor();
     ready(): void;
     setupReadyChanged(newVal: any, oldVal: any): void;
     handleResponse(response: any): void;

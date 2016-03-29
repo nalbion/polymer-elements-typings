@@ -1,4 +1,4 @@
-/// <reference path="../../bower_components/polymer-ts/polymer-ts.d.ts" />
+/// <reference path="../../polymer-ts.d.ts" />
 export declare class GoogleClientLoader extends polymer.Base {
     /**
      * Name of the API to load, e.g. 'urlshortener'.

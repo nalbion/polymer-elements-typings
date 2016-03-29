@@ -1,4 +1,4 @@
-/// <reference path="../../bower_components/polymer-ts/polymer-ts.d.ts" />
+/// <reference path="../../polymer-ts.d.ts" />
 export declare class GoogleMapPoly extends polymer.Base {
     /**
      * A Google Maps polyline or polygon object (depending on value of "closed" attribute).

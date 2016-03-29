@@ -1,4 +1,6 @@
-/// <reference path="../../bower_components/polymer-ts/polymer-ts.d.ts" />
+/// <reference path="../../polymer-ts.d.ts" />
+/// <reference path="../iron-a11y-keys-behavior/iron-a11y-keys-behavior.d.ts"/>
+
 export declare class PaperRipple extends polymer.Base implements Polymer.IronA11yKeysBehavior {
     /**
      * The initial opacity set on the wave.
@@ -63,7 +65,7 @@ export declare class PaperRipple extends polymer.Base implements Polymer.IronA11
         'space:keydown': string;
         'space:keyup': string;
     };
-    constructor();
+
     target: any;
     attached(): void;
     detached(): void;

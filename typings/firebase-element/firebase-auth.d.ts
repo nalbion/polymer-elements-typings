@@ -1,4 +1,4 @@
-/// <reference path="../../bower_components/polymer-ts/polymer-ts.d.ts" />
+/// <reference path="../../polymer-ts.d.ts" />
 export declare class FirebaseAuth extends polymer.Base {
     /**
      * Firebase location URL (must have simple login enabled via Forge interface).
@@ -41,7 +41,6 @@ export declare class FirebaseAuth extends polymer.Base {
      * A pointer to the Firebase instance being used by the firebase-auth element.
      */
     ref: Object;
-    constructor();
     attached(): void;
     detached(): void;
     /**

@@ -1,4 +1,4 @@
-/// <reference path="../../bower_components/polymer-ts/polymer-ts.d.ts" />
+/// <reference path="../../polymer-ts.d.ts" />
 export declare class IronDocProperty extends polymer.Base {
     /**
      * The [Hydrolysis](https://github.com/PolymerLabs/hydrolysis)-generated

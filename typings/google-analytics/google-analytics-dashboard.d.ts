@@ -1,4 +1,4 @@
-/// <reference path="../../bower_components/polymer-ts/polymer-ts.d.ts" />
+/// <reference path="../../polymer-ts.d.ts" />
 export declare class GoogleAnalyticsDashboard extends polymer.Base {
     /**
      * The `query` attribute represents the internal query object of this
@@ -10,7 +10,6 @@ export declare class GoogleAnalyticsDashboard extends polymer.Base {
      * True if user has been authorized
      */
     authorized: boolean;
-    constructor();
     ready(): void;
     /**
      * The `queryUpdated` method is the callback for whenever the

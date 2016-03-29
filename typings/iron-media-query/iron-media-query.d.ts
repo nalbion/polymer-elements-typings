@@ -1,4 +1,4 @@
-/// <reference path="../../bower_components/polymer-ts/polymer-ts.d.ts" />
+/// <reference path="../../polymer-ts.d.ts" />
 export declare class IronMediaQuery extends polymer.Base {
     /**
      * The Boolean return value of the media query.
@@ -13,7 +13,7 @@ export declare class IronMediaQuery extends polymer.Base {
      * string rather than a single media feature.
      */
     full: boolean;
-    constructor();
+
     attached(): void;
     detached(): void;
     queryChanged(): void;

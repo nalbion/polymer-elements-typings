@@ -1,4 +1,4 @@
-/// <reference path="../../bower_components/polymer-ts/polymer-ts.d.ts" />
+/// <reference path="../../polymer-ts.d.ts" />
 /**
    * Use `Polymer.IronValidatorBehavior` to implement a custom input/form validator. Element
    * instances implementing this behavior will be registered for use in elements that implement
@@ -17,6 +17,5 @@ declare module Polymer {
          * Name for this validator, used by `Polymer.IronValidatableBehavior` to lookup this element.
          */
         validatorName: string;
-        constructor(): any;
     }
 }

@@ -1,4 +1,7 @@
-/// <reference path="../../bower_components/polymer-ts/polymer-ts.d.ts" />
+/// <reference path="../../polymer-ts.d.ts" />
+/// <reference path="../iron-a11y-keys-behavior/iron-a11y-keys-behavior.d.ts"/>
+/// <reference path="../iron-selector/iron-selectable.d.ts"/>
+
 export declare class PaperRadioGroup extends polymer.Base implements Polymer.IronA11yKeysBehavior, Polymer.IronSelectableBehavior {
     /**
      * Fired when the radio group selection changes.

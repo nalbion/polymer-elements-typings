@@ -1,5 +1,18 @@
-/// <reference path="../../bower_components/polymer-ts/polymer-ts.d.ts" />
-export declare class IronRequest extends polymer.Base {
+/// <reference path="../../polymer-ts.d.ts" />
+/// <reference path="../polymer-elements-base.d.ts"/>
+
+declare interface IronRequestOptions {
+    url: string;
+    method?: string;
+    async?: boolean;
+    body?: (ArrayBuffer|ArrayBufferView|Blob|Document|FormData|string|{});
+    headers?: {};
+    handleAs?: string;
+    jsonPrefix?: string;
+    withCredentials?: boolean;
+}
+
+declare class IronRequest extends polymer.Base {
     /**
      * A reference to the XMLHttpRequest instance used to generate the
      * network request.
@@ -50,7 +63,7 @@ export declare class IronRequest extends polymer.Base {
      * TimedOut will be true if the XHR threw a timeout event.
      */
     timedOut: boolean;
-    constructor();
+
     succeeded: boolean;
     /**
      * Sends an HTTP request to the server and returns the XHR object.
@@ -75,7 +88,7 @@ export declare class IronRequest extends polymer.Base {
      *   timeout: (Number|undefined)
      * @return {Promise}
      */
-    send(options?: any): any;
+    send(options?: IronRequestOptions): Promise;
     /**
      * Attempts to parse the response body of the XHR. If parsing succeeds,
      * the value returned will be deserialized based on the `responseType`

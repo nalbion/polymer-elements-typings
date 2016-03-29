@@ -1,5 +1,5 @@
-/// <reference path="../../bower_components/polymer-ts/polymer-ts.d.ts" />
-declare module Polymer {
+/// <reference path="../../polymer-ts.d.ts" />
+declare module polymer {
     class IronA11yAnnouncer extends polymer.Base {
         /**
          * The value of mode is used to set the `aria-live` attribute

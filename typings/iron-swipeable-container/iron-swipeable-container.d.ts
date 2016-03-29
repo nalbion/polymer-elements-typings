@@ -1,4 +1,4 @@
-/// <reference path="../../bower_components/polymer-ts/polymer-ts.d.ts" />
+/// <reference path="../../polymer-ts.d.ts" />
 export declare class IronSwipeableContainer extends polymer.Base {
     /**
      * The style in which to swipe the card. Currently supported

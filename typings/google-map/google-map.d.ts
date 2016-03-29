@@ -1,4 +1,6 @@
-/// <reference path="../../bower_components/polymer-ts/polymer-ts.d.ts" />
+/// <reference path="../../polymer-ts.d.ts" />
+/// <reference path="../iron-resizable-behavior/iron-resizable-behavior.d.ts"/>
+
 export declare class GoogleMap extends polymer.Base implements Polymer.IronResizableBehavior {
     /**
      * A Maps API key. To obtain an API key, see developers.google.com/maps/documentation/javascript/tutorial#api_key.
@@ -115,7 +117,6 @@ export declare class GoogleMap extends polymer.Base implements Polymer.IronResiz
      * If set, all other info windows on markers are closed when opening a new one.
      */
     singleInfoWindow: boolean;
-    constructor();
     attached(): void;
     detached(): void;
     /**

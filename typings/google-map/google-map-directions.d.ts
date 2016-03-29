@@ -1,4 +1,4 @@
-/// <reference path="../../bower_components/polymer-ts/polymer-ts.d.ts" />
+/// <reference path="../../polymer-ts.d.ts" />
 export declare class GoogleMapDirections extends polymer.Base {
     /**
      * A Maps API key. To obtain an API key, see developers.google.com/maps/documentation/javascript/tutorial#api_key.
@@ -54,5 +54,4 @@ export declare class GoogleMapDirections extends polymer.Base {
      *
      */
     response: Object;
-    constructor();
 }

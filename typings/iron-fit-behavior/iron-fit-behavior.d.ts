@@ -1,4 +1,4 @@
-/// <reference path="../../bower_components/polymer-ts/polymer-ts.d.ts" />
+/// <reference path="../../polymer-ts.d.ts" />
 /**
 Polymer.IronFitBehavior fits an element in another element using `max-height` and `max-width`, and
 optionally centers it in the window or another element.
@@ -25,15 +25,14 @@ declare module Polymer {
          * scrolling region inside the element.
          * @type {!Element}
          */
-        sizingTarget: Element;
+        sizingTarget?: Element;
         /**
          * The element to fit `this` into.
          */
-        fitInto: Object;
+        fitInto?: Object;
         /**
          * Set to true to auto-fit on attach.
          */
-        autoFitOnAttach: boolean;
-        constructor(): any;
+        autoFitOnAttach?: boolean;
     }
 }

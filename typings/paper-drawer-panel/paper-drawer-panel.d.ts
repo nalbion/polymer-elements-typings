@@ -1,5 +1,15 @@
-/// <reference path="../../bower_components/polymer-ts/polymer-ts.d.ts" />
-export declare class PaperDrawerPanel extends polymer.Base implements Polymer.IronResizableBehavior {
+/// <reference path="../../polymer-ts.d.ts" />
+/// <reference path="../iron-resizable-behavior/iron-resizable-behavior.d.ts"/>
+
+declare class PaperDrawerPanel extends polymer.Base implements Polymer.IronResizableBehavior {
+    created: () => any;
+    attached: () => any;
+    detached: () => any;
+    notifyResize: () => any;
+    assignParentResizable: (parentResizable: any) => any;
+    stopResizeNotificationsFor: (target: any) => any;
+    resizerShouldNotify: (element: HTMLElement) => any;
+
     /**
      * The panel to be selected when `paper-drawer-panel` changes to narrow
      * layout.
@@ -65,7 +75,6 @@ export declare class PaperDrawerPanel extends polymer.Base implements Polymer.Ir
      * automatically be hidden in wide layout.
      */
     drawerToggleAttribute: string;
-    constructor();
     /**
      * Toggles the panel open and closed.
      *

@@ -1,6 +1,5 @@
-/// <reference path="../../bower_components/polymer-ts/polymer-ts.d.ts" />
-declare var SCOPE_: any;
-declare module Polymer {
+/// <reference path="../../polymer-ts.d.ts" />
+declare module polymer {
     class GoogleSheets extends polymer.Base {
         /**
          * A Google Developers client ID. Obtain from [console.developers.google.com](https://console.developers.google.com). Required for accessing a private spreadsheet. Optional if accessing a public spreadsheet.
@@ -47,11 +46,10 @@ declare module Polymer {
          * The URL to open this spreadsheet in Google Sheets.
          */
         openInGoogleDocsUrl: string;
-        constructor();
     }
 }
-declare function gid_to_wid_(gid: any): any;
-declare function wid_to_gid_(wid: any): number;
-declare function getLink_(rel: any, links: any): any;
-declare function generateCacheKey_(): string;
-declare var rowDataCache_: {};
+//declare function gid_to_wid_(gid: any): any;
+//declare function wid_to_gid_(wid: any): number;
+//declare function getLink_(rel: any, links: any): any;
+//declare function generateCacheKey_(): string;
+//declare var rowDataCache_: {};

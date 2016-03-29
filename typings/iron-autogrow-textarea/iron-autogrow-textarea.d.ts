@@ -1,5 +1,11 @@
-/// <reference path="../../bower_components/polymer-ts/polymer-ts.d.ts" />
-export declare class IronAutogrowTextarea extends polymer.Base implements Polymer.IronFormElementBehavior, Polymer.IronValidatableBehavior, Polymer.IronControlState {
+/// <reference path="../../polymer-ts.d.ts" />
+/// <reference path="../iron-form-element-behavior/iron-form-element-behavior.d.ts"/>
+/// <reference path="../iron-validatable-behavior/iron-validatable-behavior.d.ts"/>
+/// <reference path="../iron-behaviors/iron-control-state.d.ts"/>
+
+export declare class IronAutogrowTextarea extends polymer.Base
+    implements polymer.IronFormElementBehavior, polymer.IronValidatableBehavior, polymer.IronControlState
+{
     /**
      * Use this property instead of `value` for two-way data binding.
      *

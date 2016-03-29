@@ -1,4 +1,6 @@
-/// <reference path="../../bower_components/polymer-ts/polymer-ts.d.ts" />
+/// <reference path="../../polymer-ts.d.ts" />
+/// <reference path="../iron-jsonp-library/iron-jsonp-library.d.ts"/>
+
 export declare class GooglePlusoneApi extends polymer.Base implements Polymer.IronJsonpLibraryBehavior {
     /** @private */
     libraryUrl: string;

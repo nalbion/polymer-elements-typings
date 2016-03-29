@@ -1,4 +1,4 @@
-/// <reference path="../../bower_components/polymer-ts/polymer-ts.d.ts" />
+/// <reference path="../../polymer-ts.d.ts" />
 /**
    * The `<platinum-sw-cache>` element makes it easy to precache specific resources, perform runtime
    * caching, and serve your cached resources when a network is unavailable.
@@ -109,5 +109,4 @@ export declare class PlatinumSwCache extends polymer.Base {
      * @see {@link https://github.com/GoogleChrome/sw-toolbox#toolboxprecachearrayofurls}
      */
     precache: any[];
-    constructor();
 }
